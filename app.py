@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 st.set_page_config(\
     page_title="NEW(s)",
     page_icon="📊",
-    layout= "centered"
+    layout= "wide"
     )
 
 def extract_news(soup):
